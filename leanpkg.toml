@@ -1,0 +1,10 @@
+[package]
+name = "lean-category-theory"
+version = "0.1"
+lean_version = "khoek/klean:3.4.7"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", branch = "master", rev = "f529870e34eb5370ae8ac1f49f728547e4f6bbe5"}
+lean-tidy = {git = "https://github.com/khoek/lean-tidy", branch = "master", rev = "995fbf6efa56f6c01cdb3754fc4a84b648a6dd91"}
+leancache = {git = "https://github.com/khoek/leancache", branch = "master", rev = "5c8329f7b647b8d82966ab180c4473b20d1f249c"}
